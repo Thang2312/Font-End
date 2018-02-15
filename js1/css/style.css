@@ -1,0 +1,90 @@
+/*http://fa2png.io/r/ionicons/ios-more-outline/*/
+
+html {
+  background: url("../bg.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+body {
+	font:300 23px/18px 'Times New Roman';
+}
+
+.top-body {
+	text-align: center;
+	vertical-align: inherit;
+	text-decoration: none;
+	font-weight: bold;
+	margin-top: 25px;
+}
+
+.top-body__font {
+	vertical-align: inherit;
+}
+
+.top-body-font__text {
+	vertical-align: inherit;
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+/*content*/
+
+.container {
+	width: 310px;
+	height: 545px;
+	margin: 25px auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.container::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(71, 32, 84, 0.5);
+}
+
+.container__setting {
+	background: url("../header.jpg") no-repeat top/contain;
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.container-top {
+	position: relative;
+	min-height: 264px;
+	padding: 15px;
+	color: #fff;
+}
+
+.icon-img {
+	position: relative;
+	z-index: 10;
+}
+
+.icon-img #icon-menu {
+	float: left;
+}
+
+.icon-img span {
+	float: left;
+	vertical-align: baseline;
+}
+
+.icon-img #icon-outline {
+	float: right !important;
+}
+
+.container-top .user-profile {
+
+}
