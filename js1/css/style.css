@@ -86,5 +86,59 @@ body {
 }
 
 .container-top .user-profile {
+	position: relative;
+	z-index: 10;
+  margin-top: 90px;
+}
 
+.container-top .user-profile #user-img {
+	border-radius: 50%;
+	float: left;
+	height: 50px;
+	margin-right: 24px;
+	width: 50px;
+}
+
+.container-top .user-profile .user-profile-content {
+	float: left;
+	margin-top: 5px;
+	vertical-align: baseline;
+}
+
+.container-top .user-profile .user-profile-content h4 {
+	font-size: 18px;
+}
+
+.container-top .user-profile .user-profile-content p {
+	line-height: 1.5;
+	font-size: 14px;
+}
+
+.clearfix:after,
+.clearfix:before {
+  content: '';
+  display: table
+}
+
+.clearfix:after {
+  clear: both;
+  display: block
+}
+
+.container-mid {
+	position: absolute;
+	z-index: 10;
+	right: 0;
+	width: 40px;
+	height: 40px;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.container-mid #icon-funnel {
+	position: absolute;
+	right: 25px;
+	text-align: center;
+	top: -46px;
+	width: 40px;
+	z-index: 999;
 }
